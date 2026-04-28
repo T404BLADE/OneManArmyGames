@@ -7,7 +7,3 @@ minima:
 
 # 3. Убираем текст "OneManArmyGames" из шапки сайта (site header)
 title: ""
-
-# 4. Полностью отключаем шапку и другие стандартные элементы minima
-header_pages: []
-show_excerpts: false
