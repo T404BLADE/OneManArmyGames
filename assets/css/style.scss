@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Ваши кастомные стили поверх темы Midnight */
+body {
+  background-color: #0d0d0d;  /* ещё темнее, чем стандартный Midnight */
+}
+
+a {
+  color: #ff6600;  /* оранжевые ссылки вместо стандартных */
+}
+
+/* Настройка заголовка с вашим логотипом если нужно */
+.page-header {
+  background: linear-gradient(120deg, #1a1a2e, #16213e);
+}
