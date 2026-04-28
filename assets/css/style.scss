@@ -2,7 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-
+.title {
+  display: none !important;
+}
 .credits.left {
   display: none !important;
 }
