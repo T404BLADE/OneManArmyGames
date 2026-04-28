@@ -2,7 +2,17 @@
 ---
 
 @import "{{ site.theme }}";
+footer, 
+.site-footer,
+.page-footer,
+[class*="footer"] {
+  display: none !important;
+}
 
+/* Убираем отступы и контейнер футера */
+.main-content:after {
+  display: none;
+}
 /* Скрываем всё, что генерирует тема */
 .page-header,
 .site-footer,
