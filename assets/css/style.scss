@@ -2,10 +2,17 @@
 ---
 
 @import "{{ site.theme }}";
-footer, 
-.site-footer,
-.page-footer,
-[class*="footer"] {
+.site-footer {
+  display: none !important;
+}
+
+/* Если не помогло — вот запасной вариант */
+footer {
+  display: none !important;
+}
+
+/* Скрываем конкретно эти элементы */
+.project-footer {
   display: none !important;
 }
 
