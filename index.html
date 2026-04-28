@@ -1,3 +1,54 @@
-<p align="center">
-  <img src="Images/Logo.png" alt="OneManArmyGames" width="500">
-</p>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneManArmyGames</title>
+    <style>
+        /* Сбрасываем все отступы */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Тёмный фон на всю страницу */
+        body {
+            background-color: #0d1117;  /* Тёмно-серый, как в GitHub */
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        /* Контейнер для картинки */
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Стили для картинки */
+        .container img {
+            max-width: 90%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Если хотите добавить текст под картинкой */
+        .subtitle {
+            color: #8b949e;
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Images/Logo.png" alt="OneManArmyGames">
+        <!-- Если хотите текст под картинкой, раскомментируйте строку ниже -->
+        <!-- <div class="subtitle">OneManArmyGames</div> -->
+    </div>
+</body>
+</html>
