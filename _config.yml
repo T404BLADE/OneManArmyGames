@@ -1,0 +1,13 @@
+# 1. Задаем тему, которая НЕ будет создавать свой заголовок
+remote_theme: jekyll/minima
+
+# 2. Включаем темную тему в minima
+minima:
+  skin: dark
+
+# 3. Убираем текст "OneManArmyGames" из шапки сайта (site header)
+title: ""
+
+# 4. Полностью отключаем шапку и другие стандартные элементы minima
+header_pages: []
+show_excerpts: false
