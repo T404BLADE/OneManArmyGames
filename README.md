@@ -1,1 +1,2 @@
-# ![Logo](assets/Images/Logo.png) OneManArmyGames
+#  OneManArmyGames
+![Мой логотип](Images/Logo.png)
