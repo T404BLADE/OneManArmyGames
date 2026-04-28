@@ -2,17 +2,18 @@
 ---
 
 @import "{{ site.theme }}";
+
+.credits.left {
+  display: none !important;
+}
+
+/* Скрываем правую часть футера (Hosted on GitHub Pages — Theme by...) */
+.credits.right {
+  display: none !important;
+}
+
+/* Скрываем весь футер целиком (на всякий случай) */
 .site-footer {
-  display: none !important;
-}
-
-/* Если не помогло — вот запасной вариант */
-footer {
-  display: none !important;
-}
-
-/* Скрываем конкретно эти элементы */
-.project-footer {
   display: none !important;
 }
 
