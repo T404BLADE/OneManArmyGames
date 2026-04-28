@@ -5,50 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OneManArmyGames</title>
     <style>
-        /* Сбрасываем все отступы */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        /* Тёмный фон на всю страницу */
         body {
-            background-color: #0d1117;  /* Тёмно-серый, как в GitHub */
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            background-color: #0d1117;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
 
-        /* Контейнер для картинки */
-        .container {
+        /* Контейнер для картинки — по центру по горизонтали, прижата к верху */
+        .header-image {
             text-align: center;
-            padding: 20px;
+            padding-top: 0;
+            margin-top: 0;
         }
 
-        /* Стили для картинки */
-        .container img {
-            max-width: 90%;
+        .header-image img {
+            max-width: 80%;
             height: auto;
-            display: block;
-            margin: 0 auto;
+            display: inline-block;
         }
 
-        /* Если хотите добавить текст под картинкой */
-        .subtitle {
-            color: #8b949e;
+        /* Заголовок под картинкой — тоже по центру */
+        .title {
+            text-align: center;
             margin-top: 20px;
+        }
+
+        .title h1 {
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        /* Если нужен подзаголовок */
+        .subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-top: 10px;
             font-size: 1.2rem;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="header-image">
         <img src="Images/Logo.png" alt="OneManArmyGames">
-        <!-- Если хотите текст под картинкой, раскомментируйте строку ниже -->
-        <!-- <div class="subtitle">OneManArmyGames</div> -->
     </div>
+    
+    <div class="title">
+        <h1>OneManArmyGames</h1>
+    </div>
+    
+    <!-- Если нужен подзаголовок, раскомментируйте -->
+    <!-- <div class="subtitle">Ваш слоган или описание</div> -->
 </body>
 </html>
