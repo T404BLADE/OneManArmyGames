@@ -1,10 +1,5 @@
-<table style="border: none;">
-  <tr style="border: none;">
-    <td style="border: none; padding-right: 15px; vertical-align: middle;">
-      <img src="Images/Logo.png" alt="Лого" width="80">
-    </td>
-    <td style="border: none; vertical-align: middle;">
-      <h1 style="margin: 0;">OneManArmyGames</h1>
-    </td>
-  </tr>
-</table>
+
+
+<div style="position: fixed; top: 0; left: 0; width: 100 %; height: 100 vh; display: flex; justify-content: center; align-items: center; background-color: #0d0d0d; z-index: 9999;">
+  <img src="Images/Logo.png" alt="OneManArmyGames" style="max-width: 80 %; max-height: 80 %;">
+</div>
