@@ -32,11 +32,29 @@
         }
 
         .header-image img {
-            max-width: 300px;
+            max-width: 500px;
             width: 100%;
             height: auto;
         }
+/* Заголовок "Наши игры" */
+.our-games-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #58a6ff;
+    margin: 40px 0 20px 0;
+    letter-spacing: 1px;
+}
 
+/* Декоративная линия под заголовком (опционально) */
+.our-games-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #58a6ff;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
         /* Блок игры */
         .game-section {
             margin-top: 40px;
@@ -195,6 +213,7 @@
     </div>
 
     <div class="container">
+        <h2 class="our-games-title">Наши игры</h2>
         <div class="game-section">
             <h1 class="game-title">BUILDHUNTER</h1>
 
