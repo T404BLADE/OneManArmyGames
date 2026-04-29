@@ -178,7 +178,21 @@
             color: #58a6ff;
             text-decoration: none;
         }
+/* Плавная прокрутка */
+html {
+    scroll-behavior: smooth;
+}
 
+/* Оформление для заголовка-ссылки */
+.our-games-title a {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s;
+}
+
+.our-games-title a:hover {
+    opacity: 0.8;
+}
         a:hover {
             text-decoration: underline;
         }
@@ -213,9 +227,12 @@
     </div>
 
     <div class="container">
-        <h2 class="our-games-title">МОИ ИГРЫ</h2>
-        <div class="game-section">
-            <h1 class="game-title">BUILDHUNTER</h1>
+    <h2 class="our-games-title">
+        <a href="#buildhunter">МОИ ИГРЫ</a>
+    </h2>
+    
+    <div class="game-section" id="buildhunter">
+        <h1 class="game-title">BUILDHUNTER</h1>
 
             <!-- ВИДЕО (замените URL на ваш) -->
             <div class="video-container">
